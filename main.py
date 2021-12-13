@@ -120,3 +120,11 @@ with right_column:
     #</style>
     #"""
 #st.markdown(hide_st_style, unsafe_allow_html=True)
+
+background = """
+    <html>
+    <body style="background-color:powerderblue;">
+    </body>
+    </html>
+    """
+st.markdown(background, unsafe_allow_html=True)
